@@ -9,9 +9,8 @@
    (Q, I^2 and tau^2). Additionally, two plots are created which show a typical
    forest plot as well as a density plot with N(hat{theta}, tau^2). These plots
    also change if the individual effects sizes or standard errors are
-   manipulated. This work was supported by a fellowship within the
-   "Postdoc-Programme" of the German Academic Exchange Service (DAAD).
-
+   manipulated.  
+   
 ** Installation
    The easiest way to install the package is to use the =install_github()=
    function. The =install_github()= function is provided by the =devtools=
@@ -27,3 +26,6 @@
 ** TODOs
    - fix layout of summary stats
    - add save-plot-button
+
+** Acknowledgements
+   This work was supported by a fellowship within the “Postdoc-Programme” of the German Academic Exchange Service (DAAD).   
