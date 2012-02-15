@@ -28,4 +28,4 @@
    - add save-plot-button
 
 ** Acknowledgements
-   This work was supported by a fellowship within the “Postdoc-Programme” of the German Academic Exchange Service (DAAD).   
+   This work was supported by a fellowship within the "Postdoc-Programme" of the German Academic Exchange Service (DAAD).   
