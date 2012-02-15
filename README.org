@@ -10,6 +10,11 @@
    forest plot as well as a density plot with N(hat{theta}, tau^2). These plots
    also change if the individual effects sizes or standard errors are
    manipulated.  
+
+** Screenshot
+
+   [[http://github.com/berndweiss/tuma/raw/master/f_screenshot.png ]]
+
    
 ** Installation
    The easiest way to install the package is to use the =install_github()=
