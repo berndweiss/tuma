@@ -1,0 +1,29 @@
+* tuma: A graphical user interface for teaching univariate meta-analysis 
+
+** Overview
+   =tuma= is an add-on package for R <http://www.r-project.org> and provides a
+   graphical user interface (GUI) to visualize univariate fixed effect (FEM) and
+   random effects model (REM) meta-analysis. By interactively manipulating
+   effect sizes and standard errors, it is possible to better understand their
+   relationship with summary (FEM and REM) and heterogeneity related statistics
+   (Q, I^2 and tau^2). Additionally, two plots are created which show a typical
+   forest plot as well as a density plot with N(hat{theta}, tau^2). These plots
+   also change if the individual effects sizes or standard errors are
+   manipulated. This work was supported by a fellowship within the
+   "Postdoc-Programme" of the German Academic Exchange Service (DAAD).
+
+** Installation
+   The easiest way to install the package is to use the =install_github()=
+   function. The =install_github()= function is provided by the =devtools=
+   package. So, you first have to install the package =devtools= (via
+   =install.packages("devtools")=, don't get confused by the message "Rtools not
+   installed.") and then run:
+   1. =install_github("tuma", "berndweiss")=
+   2. =library(tuma)=
+
+** Usage
+   The tuma GUI can be started by typing =tumaGUI()=.
+
+** TODOs
+   - fix layout of summary stats
+   - add save-plot-button
