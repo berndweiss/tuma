@@ -17,13 +17,14 @@
 
    
 ** Installation
-   The easiest way to install the package is to use the =install_github()=
-   function. The =install_github()= function is provided by the =devtools=
-   package. If you are on MS Windows, it also seems that you need to have Rtools installed. So, you first have to install the package =devtools= (via
-   =install.packages("devtools")=, don't get confused by the message "Rtools not
-   installed.") and then run:
-   1. =install_github("tuma", "berndweiss")=
-   2. =library(tuma)=
+   - The easiest way to install the package is to use the =install_github()=
+     function. The =install_github()= function is provided by the =devtools=
+     package. If you are on MS Windows, it also seems that you need to have Rtools installed. So, you first have to install the package =devtools= (via
+     =install.packages("devtools")=, don't get confused by the message "Rtools not
+     installed.") and then run:
+     1. =install_github("tuma", "berndweiss")=
+     2. =library(tuma)=
+   - Binaries for MS Win (.zip) or Linux (.tar.gz) can be found in =/build=
 
 ** Usage
    The tuma GUI can be started by typing =tumaGUI()=.
