@@ -33,6 +33,8 @@
 ** TODOs
    - fix layout of summary stats
    - add save-plot-button
+   - change color of "effect size squares" to gray
+   - allow user to plot FEM or REM forest plot; or maybe both... 
 
 ** Acknowledgements
    This work was supported by a fellowship within the "Postdoc-Programme" of the German Academic Exchange Service (DAAD).   
