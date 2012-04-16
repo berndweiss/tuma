@@ -1,5 +1,7 @@
 * tuma: A graphical user interface for teaching univariate meta-analysis 
 
+/package cannot be build under R 2.15/
+
 ** Overview
    =tuma= is an add-on package for R <http://www.r-project.org> and provides a
    graphical user interface (GUI) to visualize univariate fixed effect (FEM) and
