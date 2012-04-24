@@ -170,7 +170,7 @@ tclVarList2vector <- function(x){
 plotMeta <- function(T, se, k, studlab, myfontsize, mylinewidth){
 
     ## Run univariate meta-analysis
-    resMeta <- metagen(T = T, seT = se)
+    resMeta <- metagen(TE = T, seTE = se)
 
     ## Calculate confidence intervals
     ll <- T - 1.96*se
@@ -274,7 +274,7 @@ OnOK <- function(...){
 
 
     ## Modify tcl variables for summary output
-    resMeta <- metagen(T = T, seT = se)
+    resMeta <- metagen(TE = T, seTE = se)
     resMeta <- summary(resMeta)
 
     tclvalue(tclVarFEM) <- paste("FEM = ", printStats(resMeta$fixed$TE),
@@ -307,7 +307,7 @@ onPrintMAResults <- function(){
     T <- tclVarList2vector(lstTclVarT)
     se <- tclVarList2vector(lstTclVarT)
 
-    resMeta <- metagen(T = T, seT = se)
+    resMeta <- metagen(TE = T, seTE = se)
     print(resMeta)
     cat("\n\n")
 }
@@ -323,7 +323,7 @@ updateSummaryStats <- function(){
     T <- tclVarList2vector(lstTclVarT)
     se <- tclVarList2vector(lstTclVarSe)
     k <- length(T)
-    resMeta <- summary(metagen(T = T, seT = se))
+    resMeta <- summary(metagen(TE = T, seTE = se))
 
     ##
     tclVarFEM <<- tclVar(paste("FEM = ", printStats(resMeta$fixed$TE),
@@ -429,7 +429,7 @@ drawGui <- function(){
     se <- tclVarList2vector(lstTclVarSe)
     k <- length(T)
     ## use summary(metagen(...)) to calculate and save univ meta-analysis results
-    resMeta <- summary(metagen(T = T, seT = se))
+    resMeta <- summary(metagen(TE = T, seTE = se))
 
 
     ## Combo box ------------------------------------------------------------ ##
