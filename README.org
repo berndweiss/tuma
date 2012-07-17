@@ -18,10 +18,20 @@
    
 ** Installation
    The easiest way to install the package is to use the =install_github()=
-     function. The =install_github()= function is provided by the =devtools=
-     package. If you are on MS Windows, it also seems that you need to have Rtools installed. So, you first have to install the package =devtools= (via
-     =install.packages("devtools")=, don't get confused by the message "Rtools not
-     installed.") and then run:
+   function. The =install_github()= function is provided by the =devtools=
+   package. 
+   
+   =tuma= also makes use of the =Bwidget= library. To install the Bwidget
+   library under Windows, go to
+   http://www.stat.berkeley.edu/users/spector/s133/Bwidget.html and follow the
+   instructions. Linux users should be able to install the package =bwidget= via
+   their package manager (e.g., under Debain/Ubuntu just use =sudo apt-get
+   install bwidget=). 
+
+   If you are on MS Windows, it also seems that you need to have
+   Rtools installed. So, you first have to install the package =devtools= (via
+   =install.packages("devtools")=, don't get confused by the message "Rtools
+   not installed.") and then run:
      1. =install_github("tuma", "berndweiss")=
      2. =library(tuma)=
    
