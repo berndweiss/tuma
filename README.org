@@ -45,6 +45,8 @@
    - add save-plot-button
    - change color of "effect size squares" to gray
    - allow user to plot FEM or REM forest plot; or maybe both... 
+   - button to increase ssample size (e.g. double,
+   triple sample size)
 
 ** Acknowledgements
    This work was supported by a fellowship within the "Postdoc-Programme" of the German Academic Exchange Service (DAAD).   
