@@ -38,7 +38,9 @@
    Binaries for MS Win (.zip) or Linux (.tar.gz) can be found in =/build=
 
 ** Usage
-   The tuma GUI can be started by typing =tumaGUI()=.
+   The tuma GUI can be started by typing =tumaGUI()=. 
+   
+   Unfortunateley, the package does not work well with RStudio! So, do /not/ call the tuma package from within RStudio.
 
 ** TODOs
    - fix layout of summary stats
