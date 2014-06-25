@@ -13,7 +13,7 @@
 
 ** Screenshot
 
-   [[http://github.com/berndweiss/tuma/raw/master/f_screenshot.png]]
+   [[https://github.com/berndweiss/tuma/blob/master/f_screenshot.png]]
 
    
 ** Installation
