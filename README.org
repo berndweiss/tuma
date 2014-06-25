@@ -13,7 +13,7 @@
 
 ** Screenshot
 
-   [file:f_screenshot.png]]
+   [[file:f_screenshot.png]]
 
    
 ** Installation
