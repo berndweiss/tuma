@@ -32,8 +32,9 @@
    Rtools installed. So, you first have to install the package =devtools= (via
    =install.packages("devtools")=, don't get confused by the message "Rtools
    not installed.") and then run:
-     1. =install_github("berndweiss/tuma")=
-     2. =library(tuma)=
+     1. =library(devtools)= 
+     2. =install_github("berndweiss/tuma")=
+     3. =library(tuma)=
    
    Binaries for MS Win (.zip) or Linux (.tar.gz) can be found in =/build=
 
